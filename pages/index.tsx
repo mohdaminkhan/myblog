@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
+
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
@@ -52,7 +53,7 @@ const Home: NextPage = () => {
           </a>
         </div>
       </main>
-		  <h1>This is an addition</h1>
+
       <footer className={styles.footer}>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
